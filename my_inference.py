@@ -22,7 +22,6 @@ def seed_everything(seed=42):
 
 seed_everything(42)
 
-# 1. Setup paths
 MODELS = ["cv", "rog", "tau"]
 BASE_DIR = "best_models"
 
