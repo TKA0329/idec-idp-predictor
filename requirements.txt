@@ -1,5 +1,5 @@
 torch
-transformers
+transformers==4.31.0
 numpy
 scikit-learn
 tqdm
