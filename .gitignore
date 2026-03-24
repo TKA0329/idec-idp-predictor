@@ -5,3 +5,5 @@ convert/
 notes.md
 *.npz
 results.csv
+model.pt
+inference.py
