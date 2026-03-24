@@ -1,24 +1,14 @@
-# IDP-BERT
-Property Prediction for Intrinsically Disordered Proteins (IDPs) using Language Model. ([Paper](https://arxiv.org/abs/2403.19762))
+# IDP Property Predictor
 
-<br>
+A Streamlit app for predicting biophysical properties of Intrinsically Disordered Proteins (IDPs) using IDP-BERT.
 
-The trained model weights for the best performing models can be downloaded from this [HuggingFace repo](https://huggingface.co/dsadasiv/IDP-BERT).
+Built on top of [IDP-BERT](https://github.com/DanushSadasivam/IDP-BERT) by DanushSadasivam et al.
 
-<br>
+## Properties Predicted
+- Cv (Heat Capacity)
+- Rog (Radius of Gyration)
+- Tau (end to end decorrelation time)
 
-## Getting Started
-* Clone this repository
-* `cd IDP-BERT`
-* Install the required packages (`pip install -r requirements.txt`)
-* Create train and test splits by running `python data/split_data.py`
-
-<br>
-
-## How to Run Inference
-* Update the `config.yaml` file with the desired parameters
-* Run `python main.py` to train the model
-* Place the inference dataset in a numpy array named `X` saved as `inference_data.npz` in the directory `./data/`.
-* Update file name of the trained model in the `run_name` field in `config.yaml`.
-* Run `python inference.py` to obtain predictions.
-* The predictions file can be found in `./data/inference_results/`.
+## Usage
+pip install -r requirements.txt
+streamlit run my_inference.py
