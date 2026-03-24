@@ -9,6 +9,6 @@ Built on top of [IDP-BERT](https://github.com/DanushSadasivam/IDP-BERT) by Danus
 - Rog (Radius of Gyration)
 - Tau (End to End Decorrelation Time)
 
-## Usage
+## Usage (Running locally)
 * `pip install -r requirements.txt`
 * `streamlit run my_inference.py`
