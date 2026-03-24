@@ -7,8 +7,8 @@ Built on top of [IDP-BERT](https://github.com/DanushSadasivam/IDP-BERT) by Danus
 ## Properties Predicted
 - Cv (Heat Capacity)
 - Rog (Radius of Gyration)
-- Tau (end to end decorrelation time)
+- Tau (End to End Decorrelation Time)
 
 ## Usage
-pip install -r requirements.txt
-streamlit run my_inference.py
+`pip install -r requirements.txt
+streamlit run my_inference.py`
